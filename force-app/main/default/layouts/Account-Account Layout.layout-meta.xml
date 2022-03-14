@@ -45,6 +45,10 @@
                 <behavior>Edit</behavior>
                 <field>Teste__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>US0003Field__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
