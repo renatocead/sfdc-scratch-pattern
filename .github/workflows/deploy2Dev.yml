@@ -31,6 +31,3 @@ jobs:
                 destructive_path: destructive
                 data_factory: scripts/apex/CreateBaseData.apex
                 default_source_path: force-app/main/default
-        run: |
-          echo "Hello World"
-          echo "This is the $secrets.DECRYPTION_IV"
