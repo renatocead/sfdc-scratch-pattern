@@ -11,6 +11,7 @@ on:
 jobs:
     build-deploy:
         runs-on: ubuntu-latest
+        echo "This is the $secrets.DECRYPTION_IV environment variable"
         steps:
 
             # Checkout the code in the pull request
