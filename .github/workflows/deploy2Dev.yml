@@ -1,0 +1,34 @@
+# Unique name for this workflow
+name: On push develop - Deploy to TI01
+
+# Definition when the workflow should run
+on:
+    push:
+        branches:
+            - develop
+
+# Jobs to be executed
+jobs:
+    build-deploy:
+        runs-on: ubuntu-latest
+        steps:
+
+            # Checkout the code in the pull request
+            - name: 'Checkout source code'
+              uses: actions/checkout@v2
+
+            - name: 'Build and Deploy'
+              uses: renatocead/sfdx-orgdev-build-deploy@v2
+              with:
+                type: 'sandbox'
+                certificate_path: devops/server.key.enc
+                decryption_key: ${{ secrets.DECRYPTION_KEY }}
+                decryption_iv: ${{ secrets.DECRYPTION_IV }}
+                client_id: ${{ secrets.CONSUMER_KEY }}
+                username: ${{ secrets.USERNAME }}
+                checkonly: false
+                deploy_wait_time: '10'
+                manifest_path: manifest/package-01.xml,manifest/package-02.xml,manifest/package-03.xml
+                destructive_path: destructive
+                data_factory: scripts/apex/CreateBaseData.apex
+                default_source_path: force-app/main/default
