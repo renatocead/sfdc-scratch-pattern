@@ -18,7 +18,7 @@ jobs:
               uses: actions/checkout@v2
 
             - name: 'Build and Deploy'
-              uses: renatocead/sfdx-orgdev-build-deploy
+              uses: renatocead/sfdx-orgdev-build-deploy@master
               with:
                 type: 'sandbox'
                 certificate_path: devops/server.key.enc
