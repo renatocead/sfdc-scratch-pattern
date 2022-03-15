@@ -24,7 +24,7 @@ jobs:
                 decryption_key: ${{ secrets.DECRYPTION_KEY }}
                 decryption_iv: ${{ secrets.DECRYPTION_IV }}
                 client_id: ${{ secrets.CONSUMER_KEY }}
-                username: ${{ secrets.USERNAME }}
+                username: ${{ secrets.USER_NAME }}
                 checkonly: false
                 deploy_wait_time: '10'
                 manifest_path: manifest/package-01.xml,manifest/package-02.xml,manifest/package-03.xml
