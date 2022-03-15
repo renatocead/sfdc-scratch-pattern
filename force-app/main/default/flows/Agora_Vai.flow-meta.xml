@@ -33,7 +33,7 @@
         <fields>
             <name>Agora_vai</name>
             <dataType>String</dataType>
-            <fieldText>Agora vai</fieldText>
+            <fieldText>Agora vai 2</fieldText>
             <fieldType>InputField</fieldType>
             <isRequired>false</isRequired>
         </fields>
