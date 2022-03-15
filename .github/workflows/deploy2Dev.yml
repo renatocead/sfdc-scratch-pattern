@@ -20,7 +20,7 @@ jobs:
               uses: renatocead/sfdx-orgdev-build-deploy@v2.1.3
               with:
                 type: 'sandbox'
-                certificate_path: devops/server.key.enc
+                certificate_path: devops/serverprod.key.enc
                 decryption_key: ${{ secrets.DECRYPTION_KEY }}
                 decryption_iv: ${{ secrets.DECRYPTION_IV }}
                 client_id: ${{ secrets.CONSUMER_KEY }}
