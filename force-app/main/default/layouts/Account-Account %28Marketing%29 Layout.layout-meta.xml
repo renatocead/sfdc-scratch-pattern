@@ -41,6 +41,10 @@
                 <behavior>Edit</behavior>
                 <field>Teste2__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Teste_Latam_HUB_numero__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
