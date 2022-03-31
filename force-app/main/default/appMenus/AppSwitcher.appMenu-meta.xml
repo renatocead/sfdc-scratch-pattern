@@ -97,20 +97,24 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__DataManager</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__LightningService</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>standard__LightningSalesConsole</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
+        <name>Pardot_to_SF_Integration_Secure_Connected_App</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>b2bma_canvas</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>Salesforce_to_SalesforceIQ_Secure_Connected_App</name>
         <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__LightningService</name>
+        <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
         <name>OIQ_Integration</name>
