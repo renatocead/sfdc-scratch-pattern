@@ -17,7 +17,7 @@ jobs:
               uses: actions/checkout@v2
 
             # Adjust Node Version to use GIT Delta
-            - name: 'Use Node.js 12.16.2'
+            - name: 'Setting GIT Delta dependencies'
               uses: actions/setup-node@v1
               with:
                   node-version: 14.6.0
