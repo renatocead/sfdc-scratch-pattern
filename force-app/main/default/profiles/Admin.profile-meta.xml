@@ -3,11 +3,6 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.Teste2_Novo__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Account.Teste_Latam_HUB_numero__c</field>
         <readable>true</readable>
     </fieldPermissions>
