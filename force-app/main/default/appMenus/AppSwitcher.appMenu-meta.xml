@@ -85,10 +85,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>b2bma_canvas</name>
-        <type>ConnectedApp</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>standard__LightningService</name>
         <type>CustomApplication</type>
     </appMenuItems>
