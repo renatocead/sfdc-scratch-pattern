@@ -29,7 +29,7 @@ jobs:
                 username: ${{ secrets.USER_NAME }}
                 checkonly: false
                 deploy_wait_time: '10'
-                manifest_path: package/package.xml
+                manifest_path: package.xml
                 destructive_path: destructiveChanges
                 data_factory: scripts/apex/CreateBaseData.apex
                 default_source_path: force-app/main/default
