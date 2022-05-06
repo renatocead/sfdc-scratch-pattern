@@ -35,10 +35,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>US0003Field__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Teste2_Novo__c</field>
             </layoutItems>
             <layoutItems>
