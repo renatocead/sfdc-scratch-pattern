@@ -3,12 +3,7 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.Latam_hub_top__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Teste2__c</field>
+        <field>Account.Teste2_Novo__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -26,9 +21,6 @@
         <field>Account.US0003Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-    </layoutAssignments>
     <layoutAssignments>
         <layout>PersonAccount-Person Account Layout</layout>
         <recordType>PersonAccount.PersonAccount</recordType>
@@ -833,6 +825,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewTrustMeasures</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewUserPII</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

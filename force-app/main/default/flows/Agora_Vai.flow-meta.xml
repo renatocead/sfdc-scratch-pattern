@@ -47,5 +47,5 @@
             <targetReference>Agora_vai2</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
 </Flow>
