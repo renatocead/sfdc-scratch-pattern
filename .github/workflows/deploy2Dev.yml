@@ -18,12 +18,6 @@ jobs:
               with:
                 fetch-depth: 2
 
-            # Adjust Node Version to use GIT Delta
-            - name: 'Setting GIT Delta dependencies'
-              uses: actions/setup-node@v1
-              with:
-                  node-version: 14.6.0
-
             - name: 'Build and Deploy'
               uses: renatocead/sfdx-orgdev-build-deploy@master
               with:
