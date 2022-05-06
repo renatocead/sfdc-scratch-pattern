@@ -29,10 +29,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>Service_Cloud_Console</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>Chatter_Answers_Moderator</name>
         <type>CustomApplication</type>
     </appMenuItems>
