@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Teste_Latam_HUB_numero__c</fullName>
     <externalId>false</externalId>
-    <label>Teste Latam HUB numero</label>
+    <label>Teste Latam HUB numero 1</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>
