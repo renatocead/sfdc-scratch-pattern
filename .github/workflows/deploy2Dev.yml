@@ -1,11 +1,11 @@
 # Unique name for this workflow
-name: On push develop - Deploy to QA
+name: On push release/* - Deploy to DEV to validate
 
 # Definition when the workflow should run
 on:
     push:
         branches:
-            - develop
+            - releases/**
 
 # Jobs to be executed 01
 jobs:
