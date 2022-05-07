@@ -5,7 +5,7 @@ name: On push release/* - Deploy to DEV to validate
 on:
     push:
         branches:
-            - releases/**
+            - feature/**
 
 # Jobs to be executed 01
 jobs:
