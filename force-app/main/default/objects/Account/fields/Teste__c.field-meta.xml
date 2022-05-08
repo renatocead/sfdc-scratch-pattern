@@ -3,6 +3,7 @@
     <fullName>Teste__c</fullName>
     <externalId>false</externalId>
     <label>TesteField</label>
+    <description>a</description>
     <length>255</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
