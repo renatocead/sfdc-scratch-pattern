@@ -41,3 +41,4 @@ jobs:
                 destructive_path: destructiveChanges
                 data_factory: scripts/apex/CreateBaseData.apex
                 default_source_path: force-app/main/default
+                working-directory:  ./feature
