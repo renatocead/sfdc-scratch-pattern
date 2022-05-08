@@ -16,15 +16,7 @@ jobs:
             - name: 'Checkout source code feature branch'
               uses: actions/checkout@v3
               with:
-                repository: renatocead/sfdc-scratch-pattern
-                path: feature
-
-            - name: 'Checkout source code Develop'
-              uses: actions/checkout@v3
-              with:
-                repository: renatocead/sfdc-scratch-pattern
-                ref: develop
-                path: develop
+                fetch-depth: 0
 
             - name: 'Build and Deploy'
               uses: renatocead/sfdx-orgdev-build-deploy@master
@@ -41,4 +33,3 @@ jobs:
                 destructive_path: destructiveChanges
                 data_factory: scripts/apex/CreateBaseData.apex
                 default_source_path: force-app/main/default
-                working-directory:  ./feature
