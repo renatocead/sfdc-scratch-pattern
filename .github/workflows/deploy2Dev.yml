@@ -12,11 +12,17 @@ jobs:
     build-deploy:
         runs-on: ubuntu-latest
         steps:
-            # Checkout the code in the pull request
-            - name: 'Checkout source code'
+            # Checkout the code in the push event (Feature branch)
+            - name: 'Checkout source code feature branch'
               uses: actions/checkout@v2
               with:
                 fetch-depth: 2
+
+            - name: 'Checkout source code Develop'
+              uses: actions/checkout@v2
+              with:
+                repository: renatocead/sfdc-scratch-pattern
+                ref: develop
 
             - name: 'Build and Deploy'
               uses: renatocead/sfdx-orgdev-build-deploy@master
