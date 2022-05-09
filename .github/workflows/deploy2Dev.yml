@@ -5,18 +5,19 @@ name: On push release/* - Deploy to DEV to validate
 on:
     push:
         branches:
-            - feature/**
+            - develop
 
 # Jobs to be executed 01
 jobs:
     build-deploy:
         runs-on: ubuntu-latest
         steps:
-            # Checkout the code in the pull request
-            - name: 'Checkout source code'
-              uses: actions/checkout@v2
+            # Checkout the code in the push event (Feature branch)
+            - name: 'Checkout source code feature branch'
+              uses: actions/checkout@v3
               with:
-                fetch-depth: 2
+                repository: 'renatocead/sfdc-scratch-pattern'
+                fetch-depth: 0
 
             - name: 'Build and Deploy'
               uses: renatocead/sfdx-orgdev-build-deploy@master
@@ -30,6 +31,6 @@ jobs:
                 checkonly: false
                 deploy_wait_time: '10'
                 manifest_path: package.xml
-                destructive_path: destructiveChanges
+                destructive_path: devops/destructive
                 data_factory: scripts/apex/CreateBaseData.apex
                 default_source_path: force-app/main/default
