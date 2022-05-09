@@ -12,6 +12,11 @@
                 <componentName>notes:utilityBarNoteList</componentName>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>runtime_service_omnichannel:omniWidget</componentName>
+            </componentInstance>
+        </itemInstances>
         <name>utilityItems</name>
         <type>Region</type>
     </flexiPageRegions>
