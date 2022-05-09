@@ -1,5 +1,5 @@
 # Unique name for this workflow
-name: On push release/* - Deploy to DEV to validate
+name: On push Develop - Deploy to DEV to validate
 
 # Definition when the workflow should run
 on:
@@ -13,11 +13,11 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             # Checkout the code in the push event (Feature branch)
-            - name: 'Checkout source code feature branch'
-              uses: actions/checkout@v3
-              with:
-                repository: 'renatocead/sfdc-scratch-pattern'
-                fetch-depth: 0
+            #- name: 'Checkout source code feature branch'
+            #  uses: actions/checkout@v3
+            #  with:
+            #    repository: 'renatocead/sfdc-scratch-pattern'
+            #    fetch-depth: 0
 
             - name: 'Build and Deploy'
               uses: renatocead/sfdx-orgdev-build-deploy@master
