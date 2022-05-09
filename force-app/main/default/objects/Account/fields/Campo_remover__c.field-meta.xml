@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Campo_remover__c</fullName>
     <externalId>false</externalId>
-    <label>Campo remover teste</label>
+    <label>Campo remover teste us0040</label>
     <length>100</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
