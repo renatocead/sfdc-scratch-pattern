@@ -31,6 +31,6 @@ jobs:
                 checkonly: false
                 deploy_wait_time: '10'
                 manifest_path: package.xml
-                destructive_path: destructiveChanges
+                destructive_path: devops/destructive
                 data_factory: scripts/apex/CreateBaseData.apex
                 default_source_path: force-app/main/default
